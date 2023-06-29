@@ -60,6 +60,11 @@ input:focus{
     height: 5vh;
     cursor: pointer;
 }
+/*Ivy*/
+.ivy{
+    width: 15vw;
+}
+/*Footer and Links*/
 a{
     text-decoration: none;
 }
@@ -69,4 +74,24 @@ footer{
     bottom: 0;
     height: 4vh;
     text-align: center;
+}
+
+/*VIEWPORTS*/
+
+@media screen and (min-width:200px) and (max-width:880px) {
+    /*CARD*/
+    .login-card{
+        width: 80vw;
+    }
+    /*INPUT ITEMS*/
+    .input-items{
+        width: 50vw;
+    }
+    .button-div{
+        width: 50vw;
+    }
+    /*Ivy*/
+    .ivy{
+        width: 20vh;
+    }
 }
