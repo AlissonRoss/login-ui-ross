@@ -9,6 +9,7 @@ body, .login-card{
 body{
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
+/*Main Card*/
 .login-card{
     background: white;
     width:50vw;
@@ -17,11 +18,11 @@ body{
     align-items: center;
     border-radius: 5%;
     flex-direction: column;
-    
 }
 h1{
     font-size: 1.5em;
 }
+/*Input/Form items*/
 .input-items{
     display: flex;
     width: 20vw;
@@ -37,5 +38,11 @@ input{
 }
 input:focus{
     outline: none;
-    box-shadow:0 0 10px 2px #db48c5;
+    box-shadow:0 0 10px 2px #b47fac;
+}
+button{
+    display: flex;
+    max-width: fit-content;
+    padding: auto;
+    align-self: center;
 }
