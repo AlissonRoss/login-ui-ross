@@ -7,6 +7,7 @@ body, .login-card{
     max-width: 100vw;
     overflow: hidden;
     font-family: 'Belanosima', sans-serif;
+    flex-direction: column;
 }
 body{
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
@@ -58,4 +59,14 @@ input:focus{
     border-radius: 5%;
     height: 5vh;
     cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    height: 4vh;
+    text-align: center;
 }
