@@ -60,9 +60,12 @@ input:focus{
     height: 5vh;
     cursor: pointer;
 }
-/*Ivy*/
-.ivy{
-    width: 15vw;
+/*CATS*/
+.gatos{
+    flex-direction: row;
+}
+.ivy, .orange-gato, .black-gato{
+    width: 10vw;
 }
 /*Footer and Links*/
 a{
@@ -91,7 +94,7 @@ footer{
         width: 50vw;
     }
     /*Ivy*/
-    .ivy{
-        width: 20vh;
+    .ivy, .orange-gato, .black-gato{
+        width: 12vh;
     }
 }
