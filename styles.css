@@ -10,7 +10,7 @@ body, .login-card{
     flex-direction: column;
 }
 body{
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, #DAB785 0%, #d3a9cd  100%);
 }
 /*Main Card*/
 .login-card{
@@ -21,10 +21,10 @@ body{
     align-items: center;
     border-radius: 5%;
     flex-direction: column;
-    box-shadow: 28px 13px 35px -23px rgba(140,98,140,1);
+    box-shadow: 28px 13px 35px -23px #d3a9cd;
 }
 h1{
-    color: #b47fac;
+    color: #d3a9cd;
     font-size: x-large;
     font-family:'Caprasimo', cursive;
     font-weight: 100;
@@ -47,12 +47,16 @@ input{
 }
 input:focus{
     outline: none;
-    box-shadow:0 0 10px 2px #b47fac;
+    box-shadow:0 0 10px 2px #90708C;
     cursor: pointer;
 }
 .button-div{
     display: flex;
     min-width: 10vw;
+    color: #90708C;
+    font-weight: bold;
+    background-color:  #ebddca;
+    box-shadow: 5px 5px 5px #d3a9cd;
     align-self: center;
     justify-content: center;
     border: none;
@@ -93,7 +97,7 @@ footer{
     .button-div{
         width: 50vw;
     }
-    /*Ivy*/
+    /*Gatos*/
     .ivy, .orange-gato, .black-gato{
         width: 12vh;
     }
