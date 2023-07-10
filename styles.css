@@ -21,7 +21,7 @@ body{
     align-items: center;
     border-radius: 5%;
     flex-direction: column;
-    box-shadow: 28px 13px 35px -23px #d3a9cd;
+    box-shadow: 28px 13px 35px -23px #8b6586;
 }
 h1{
     color: #d3a9cd;
@@ -68,8 +68,11 @@ input:focus{
 .gatos{
     flex-direction: row;
 }
-.ivy, .orange-gato, .black-gato{
+.ivy, .orange-gato, .black-gato, .questioncat{
     width: 10vw;
+}
+.questioncat{
+    padding-top: 2rem;
 }
 /*Footer and Links*/
 a{
@@ -98,7 +101,7 @@ footer{
         width: 50vw;
     }
     /*Gatos*/
-    .ivy, .orange-gato, .black-gato{
+    .ivy, .orange-gato, .black-gato, .questioncat{
         width: 12vh;
     }
 }
