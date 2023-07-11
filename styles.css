@@ -3,24 +3,21 @@ body, .login-card{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    max-width: 100vw;
     overflow: hidden;
     font-family: 'Belanosima', sans-serif;
     flex-direction: column;
 }
 body{
     background: radial-gradient(circle, #DAB785 0%, #d3a9cd  100%);
+    height: 100vh;
+    max-width: 100vw;
 }
 /*Main Card*/
 .login-card{
     background: white;
-    width:50vw;
-    height:50vh;
-    justify-content: center;
-    align-items: center;
+    min-width:50vw;
+    min-height:50vh;
     border-radius: 5%;
-    flex-direction: column;
     box-shadow: 28px 13px 35px -23px #8b6586;
 }
 h1{
